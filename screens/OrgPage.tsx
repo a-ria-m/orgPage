@@ -57,7 +57,6 @@ export default function OrgPage() {
         }}
       />
 
-      {/* Fixed Back Button */}
       <TouchableOpacity
         style={{
           position: 'absolute',
@@ -84,9 +83,7 @@ export default function OrgPage() {
         />
       </TouchableOpacity>
 
-      {/* Scrollable Content */}
       <ScrollView contentContainerStyle={{ paddingHorizontal: 16, paddingTop: 16 }}>
-        {/* Org Info Card */}
         <View
           style={{
             flexDirection: 'row',
@@ -102,7 +99,6 @@ export default function OrgPage() {
             zIndex: 1,
           }}
         >
-          {/* Icon Box */}
           <View
             style={{
               width: 64,
@@ -117,7 +113,6 @@ export default function OrgPage() {
               padding: 4,
             }}
           >
-            {/* Triangle */}
             <View
               style={{
                 width: 0,
@@ -132,13 +127,11 @@ export default function OrgPage() {
                 marginBottom: 4,
               }}
             />
-            {/* Square */}
+
             <View style={{ width: 16, height: 16, backgroundColor: '#888', margin: 4 }} />
-            {/* Circle */}
             <View style={{ width: 16, height: 16, backgroundColor: '#888', borderRadius: 8, margin: 4 }} />
           </View>
 
-          {/* Org Text */}
           <View style={{ flex: 1 }}>
             <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#333', marginBottom: 4 }}>
               ORg
@@ -149,7 +142,6 @@ export default function OrgPage() {
           </View>
         </View>
 
-        {/* Event Card */}
         <View
           style={{
             backgroundColor: '#E1E6D4',
