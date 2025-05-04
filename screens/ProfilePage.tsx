@@ -10,19 +10,16 @@ import {
 } from 'react-native';
 
 export default function ProfilePage() {
-  // Name/Bio with ID
   const profileDetails = {
     id: 'user001',
     name: 'RandomNameHere',
     bio: 'Quick Bio Insert Here//role maybe? like student/teacher/head of org ',
   };
 
-  // Dummy Info (easily changeable)
   const dummyInfo = [
     { id: 'memberSince', label: 'Member Since', value: 'January 2021' },
   ];
 
-  // Dummy setting toggles
   const settingToggles = [
     { id: 'notifications', label: 'Push Notifications', value: true },
     { id: 'emailUpdates', label: 'Email Updates', value: true },
